@@ -29,7 +29,13 @@ sudo apt-get install mysql-server
 ![Задание 3](images/task3_1.png "Задание 3")
 ![Задание 3](images/task3_2.png "Задание 3")
 ### 4. Установить и удалить deb-пакет с помощью dpkg. 
-
+```
+wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+sudo dpkg -i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+sudo dpkg -r mysql-connector-j
+sudo apt-get autoremove
+```
+![Задание 4](images/task4.png "Задание 4")
 ### 5. Выложить историю команд в терминале ubuntu
 
 ### 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы).
