@@ -24,7 +24,7 @@ CREATE TABLE all_animals AS (
 SELECT name,
        commands,
        birthday,
-       Round( (year(current_date()) - year(birthday)) + (month(current_date() - month(birthday)) )/10, 2) AS age
+       TIMESTAMPDIFF(MONTH, birthday, NOW()) AS age
 FROM all_animals
 WHERE age BETWEEN 12 AND 36;
 

@@ -1,0 +1,10 @@
+id:1;name:Дракон;type:Dog;birthday:2021-03-02;commands:спать
+id:2;name:Лорд;type:Dog;birthday:2018-07-15;commands:спать, играть
+id:3;name:Хома;type:Dog;birthday:2022-09-24;commands:спать
+id:4;name:Сэм;type:Dog;birthday:2024-01-12;commands:спать
+id:5;name:Мурзик;type:Cat;birthday:2022-10-11;commands:бегать
+id:6;name:Бегун;type:Horse;birthday:2019-11-23;commands:бегать
+id:7;name:Верблюд;type:Camel;birthday:2019-12-01;commands:ходить
+id:8;name:Осел;type:Donkey;birthday:2020-01-09;commands:смеяться
+id:9;name:Лошадь;type:Horse;birthday:2011-01-15;commands:бегать
+id:10;name:Верблюд;type:Camel;birthday:2022-12-23;commands:Кататься, играть
